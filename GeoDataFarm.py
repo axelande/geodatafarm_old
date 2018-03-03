@@ -45,7 +45,6 @@ from import_data.insert_input_to_db import InsertInputToDB
 from import_data.handle_input_shp_data import InputShpHandler
 from import_data.handle_db_file_data import DBFileHandler
 from import_data.insert_harvest_to_db import InsertHarvestData
-from import_data.handle_irrigation import IrrigationHandler
 from database_scripts.table_managment import TableManagement
 from support_scripts.create_layer import CreateLayer
 

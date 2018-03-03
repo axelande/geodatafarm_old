@@ -1,7 +1,7 @@
 import support_scripts.shapefile as shp
 from support_scripts.__init__ import check_text
 from PyQt4 import QtCore
-from PyQt4.QtCore import pyqtSignal, QThread, QObject, pyqtSlot
+from PyQt4.QtCore import pyqtSignal, QThread, QObject
 from qgis.core import QgsMapLayerRegistry
 from support_scripts.create_layer import CreateLayer
 from widgets.waiting import Waiting

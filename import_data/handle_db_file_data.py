@@ -1,14 +1,12 @@
 from PyQt4.QtCore import QSettings, QTranslator, qVersion, QCoreApplication, Qt, pyqtSlot
-from PyQt4.QtGui import QTableWidgetItem, QFileDialog, QAbstractItemView, QComboBox, QStandardItemModel, QStandardItem
+from PyQt4.QtGui import QTableWidgetItem, QAbstractItemView, QComboBox
 import sqlite3
 import os
 from operator import xor
 from collections import OrderedDict
 # Import the code for the dialog
 from widgets.import_db_file_dialog import ImportDBFileDialog
-from support_scripts.rain_dancer import MyRainDancer
-from database_scripts.db import DB
-from support_scripts.create_layer import CreateLayer
+
 __author__ = 'Axel Andersson'
 
 

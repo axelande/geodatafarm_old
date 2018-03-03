@@ -1,8 +1,5 @@
 from PyQt4 import QtCore, QtGui
-from PyQt4.QtCore import QSettings, QTranslator, qVersion, QCoreApplication
 from PyQt4.QtGui import QInputDialog, QMessageBox
-from database_scripts.db import DB
-import os
 # Import the code for the dialog
 from widgets.table_managment_dialog import TableMgmtDialog
 __author__ = 'Axel Andersson'

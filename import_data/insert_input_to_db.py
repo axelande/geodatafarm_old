@@ -1,5 +1,5 @@
 from PyQt4 import QtCore
-from PyQt4.QtCore import pyqtSignal, QObject, QThread
+from PyQt4.QtCore import pyqtSignal, QThread
 from qgis.core import QgsMapLayerRegistry
 import time
 from widgets.waiting import Waiting

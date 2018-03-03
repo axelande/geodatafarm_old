@@ -2,20 +2,15 @@ __author__ = 'Axel Andersson'
 from qgis.core import QgsMapLayerRegistry, QgsVectorLayer
 import processing
 from PyQt4 import QtCore
-from PyQt4.QtCore import QSettings, QTranslator, qVersion, QCoreApplication
 from PyQt4.QtGui import QTableWidgetItem, QFileDialog, QAbstractItemView, QMessageBox
 from osgeo import osr
-import matplotlib.path as mplPath
-import time
 import support_scripts.shapefile as shp
 import os
-from string import ascii_letters, digits as str_digits
 from operator import xor
 # Import the code for the dialog
 from import_data.insert_input_to_db import InsertInputToDB
 from widgets.import_shp_dialog import ImportShpDialog
 from support_scripts.radio_box import RadioComboBox
-from database_scripts.db import DB
 from support_scripts.create_layer import CreateLayer
 from support_scripts.__init__ import check_text
 
