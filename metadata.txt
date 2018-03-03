@@ -17,7 +17,7 @@ email=geodatafarm@gmail.com
 
 about=This plugin requires that matplotlib is installed with QGIS, please use the OSGeo4W networkinstaller to install matplotlib. Installation instructions is availible on www.geodatafarm.com/download.php . The plugin aims to determine the yield impact of different parameters. It is built for investigating any crops and any field parameters. For all questions and request for modifications etc. please contact: geodatafarm@gmail.com
 
-tracker=github.com
+tracker=https://github.com/axelande/geodatafarm/issues
 repository=github.com
 # End of mandatory metadata
 
@@ -25,6 +25,7 @@ repository=github.com
 
 # Uncomment the following line and add your changelog:
 # changelog=
+1.01 removed unused files and imports and added information of the matplot requirement.
 
 # Tags are comma separated with spaces allowed
 tags=Farm, data analysis, csv file reader
